@@ -1,15 +1,15 @@
 public class Main {
 
-    public static int berekenDerdeMacht(int getal) {
+    public static int berekenKwadraat(int getal) {
 
         int kwadraat;
-        kwadraat = getal * getal * getal;
+        kwadraat = getal * getal;
         return kwadraat;
     }
 
     public static void main(String[] args) {
 
         int getal = 4;
-        System.out.println (berekenDerdeMacht(getal));
+        System.out.println (berekenKwadraat(getal));
     }
 }
